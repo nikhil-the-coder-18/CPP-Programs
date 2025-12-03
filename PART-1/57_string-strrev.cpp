@@ -1,0 +1,15 @@
+/* 57 : String - strrev() Function.
+   Date : 04/11/2025
+   Author : Nikhil  */
+
+#include<iostream>
+#include<string.h>
+using namespace std;
+int main () {
+    char name[50];
+    cout << "Enter Your Name : ";
+    cin >> name;
+    strrev(name);
+    cout << "Your Name is Reverse is " << name << endl;
+    return 0;
+}
